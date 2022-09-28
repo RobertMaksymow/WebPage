@@ -1,0 +1,26 @@
+body {
+    width: 80%;
+    margin: 10px auto;
+    font-family: 'Rajdhani', sans-serif;
+    background: #8ad6f2;
+}
+
+ul{
+    padding: 0%;
+}
+
+li{
+    list-style-type: none;
+}
+
+#logo{
+    font-size: xx-large;
+}
+
+.container{
+    display: flex;
+}
+
+footer {
+    margin-top: 50px auto
+}
