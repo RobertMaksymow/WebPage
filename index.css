@@ -1,26 +1,115 @@
 body {
-    width: 80%;
-    margin: 10px auto;
-    font-family: 'Rajdhani', sans-serif;
-    background: #8ad6f2;
+  width: 70%;
+  margin: 10px auto;
+  font-family: "Rajdhani", sans-serif;
+  background: #8ad6f2;
 }
 
-ul{
-    padding: 0%;
+ul {
+  padding: 0%;
 }
 
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
 
-#logo{
-    font-size: xx-large;
+#logo {
+  font-size: xx-large;
 }
 
-.container{
-    display: flex;
+/* NAV-BAR LINKS */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
+#logo {
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-icon {
+  height: 35px;
+  width: auto;
+  padding-right: 5px;
+}
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+}
+.nav-link:visited {
+  text-decoration: none;
+}
+.nav-link:active {
+  text-decoration: none;
+}
+.nav-link:hover {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+
+/* WELCOME HEADER */
+.welcome-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#welcome-header {
+  margin-top: 20px;
+}
+#profile-photo {
+  margin-top: 20px;
+  height: 100px;
+  width: auto;
+}
+
+/* PORTOFOLIO */
+.portofolio {
+  margin-left: 20px;
+}
+
+/* CONTACT */
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.contact-link {
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+}
+
+li img {
+  border: 1px solid red;
+}
+
+.icon {
+  height: 20px;
+  width: auto;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+/* FOOTER */
 footer {
-    margin-top: 50px auto
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
 }
