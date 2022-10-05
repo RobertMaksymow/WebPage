@@ -17,6 +17,19 @@ li {
   font-size: xx-large;
 }
 
+.hide-link {
+  text-decoration: none;
+  color: black;
+}
+
+.blink-on {
+  color: black;
+}
+
+.blink-off {
+  color: #8ad6f2;
+}
+
 /* NAV-BAR LINKS */
 .nav-container {
   display: flex;
@@ -83,10 +96,10 @@ li {
 /* CONTACT */
 .contact-icons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: nowrap;
-  align-items: flex-start;
-  align-content: center;
+  align-items: center;
+  /* align-content: center; */
 }
 
 .contact-link {
@@ -95,14 +108,9 @@ li {
   color: black;
 }
 
-li img {
-  border: 1px solid red;
-}
-
 .icon {
   height: 20px;
   width: auto;
-  margin-top: 10px;
   margin-left: 20px;
   margin-right: 10px;
 }
