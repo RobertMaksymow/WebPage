@@ -12,7 +12,7 @@ ul {
 li {
   list-style-type: none;
 }
-
+/* LOGO */
 #logo {
   font-size: xx-large;
 }
@@ -24,6 +24,7 @@ li {
 
 .blink-on {
   color: black;
+  text-decoration: none;
 }
 
 .blink-off {
@@ -86,6 +87,7 @@ li {
   margin-top: 20px;
   height: 100px;
   width: auto;
+  box-shadow: 10px 10px 5px;
 }
 
 /* PORTOFOLIO */
@@ -113,6 +115,10 @@ li {
   width: auto;
   margin-left: 20px;
   margin-right: 10px;
+}
+
+.contact-icons:hover {
+  margin-left: 10px;
 }
 
 /* FOOTER */

@@ -15,7 +15,6 @@ function typeText() {
   } else {
     str1 = str1 + nameString[i];
     i++;
-    console.log(str1);
     terminalTyping.innerText = str1;
   }
 }
